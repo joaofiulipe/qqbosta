@@ -1,0 +1,28 @@
+\doxysection{Horario.\+hpp}
+\hypertarget{_horario_8hpp_source}{}\label{_horario_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ HORARIO\_DOMAIN\_INTERFACE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ HORARIO\_DOMAIN\_INTERFACE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}./Dominio.hpp"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_horario}{Horario}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_dominio}{Dominio}}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ HoraMaxima\ =\ 23;\ }
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ MinutoMaximo\ =\ 59;\ }
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{void}\ validar(\textcolor{keywordtype}{string}\ valor)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{class_horario_a1ced2ff1d932dfc70f4b280e2cb315aa}{Horario}}(\textcolor{keywordtype}{string}\ valor);}
+\DoxyCodeLine{00030\ \};}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_horario_a1ced2ff1d932dfc70f4b280e2cb315aa}{Horario::Horario}}(\textcolor{keywordtype}{string}\ valor)}
+\DoxyCodeLine{00037\ \{}
+\DoxyCodeLine{00038\ \ \ \ \ this-\/>\mbox{\hyperlink{class_dominio_a3f7814697db9114231eec4824466a4de}{setValor}}(valor);}
+\DoxyCodeLine{00039\ \}}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HORARIO\_DOMAIN\_INTERFACE\_HPP}}
+
+\end{DoxyCode}

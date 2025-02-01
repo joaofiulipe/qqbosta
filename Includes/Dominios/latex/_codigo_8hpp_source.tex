@@ -1,0 +1,31 @@
+\doxysection{Codigo.\+hpp}
+\hypertarget{_codigo_8hpp_source}{}\label{_codigo_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CODIGO\_DOMAIN\_INTERFACE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CODIGO\_DOMAIN\_INTERFACE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}./Dominio.hpp"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_codigo}{Codigo}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_dominio}{Dominio}}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ TamanhoCodigo\ =\ 6;\ }
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{void}\ validar(\textcolor{keywordtype}{string}\ valor)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{class_codigo_ab600451a62d146afd95c1c1a0fc041c3}{Codigo}}();}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{class_codigo_ab600451a62d146afd95c1c1a0fc041c3}{Codigo}}(\textcolor{keywordtype}{string}\ valor);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{string}\ \mbox{\hyperlink{class_codigo_ac2e43f25fb33e877628cd0953f4e3686}{GerarCodigoAleatorio}}();}
+\DoxyCodeLine{00040\ \};}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00046\ \textcolor{keyword}{inline}\ \mbox{\hyperlink{class_codigo_ab600451a62d146afd95c1c1a0fc041c3}{Codigo::Codigo}}(\textcolor{keywordtype}{string}\ valor)}
+\DoxyCodeLine{00047\ \{}
+\DoxyCodeLine{00048\ \ \ \ \ this-\/>\mbox{\hyperlink{class_dominio_a3f7814697db9114231eec4824466a4de}{setValor}}(valor);}
+\DoxyCodeLine{00049\ \}}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CODIGO\_DOMAIN\_INTERFACE\_HPP}}
+
+\end{DoxyCode}

@@ -1,0 +1,83 @@
+\doxysection{Codigo Class Reference}
+\hypertarget{class_codigo}{}\label{class_codigo}\index{Codigo@{Codigo}}
+
+
+Classe responsável pela representação de um código.  
+
+
+
+
+{\ttfamily \#include $<$Codigo.\+hpp$>$}
+
+Inheritance diagram for Codigo\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_codigo}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_codigo_ab600451a62d146afd95c1c1a0fc041c3}\label{class_codigo_ab600451a62d146afd95c1c1a0fc041c3} 
+{\bfseries Codigo} ()
+\begin{DoxyCompactList}\small\item\em Construtor padrão da classe \doxylink{class_codigo}{Codigo}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_codigo_a5b1095101d30bb8f9647f43afa6b8f66}{Codigo}} (string valor)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_codigo}{Codigo} com valor inicial. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_dominio}{Dominio}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Dominio} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dominio_a3f7814697db9114231eec4824466a4de}{set\+Valor}} (const string \&valor)
+\begin{DoxyCompactList}\small\item\em Define o valor do domínio. \end{DoxyCompactList}\item 
+const string \& \mbox{\hyperlink{class_dominio_a277d40b5389efc363ef9fbf1e690ad0b}{get\+Valor}} () const
+\begin{DoxyCompactList}\small\item\em Obtém o valor do domínio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \mbox{\hyperlink{class_codigo_ac2e43f25fb33e877628cd0953f4e3686}{Gerar\+Codigo\+Aleatorio}} ()
+\begin{DoxyCompactList}\small\item\em Método estático para gerar um código aleatório. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela representação de um código. 
+
+Esta classe herda de \doxylink{class_dominio}{Dominio} e gerencia a validação e geração de códigos. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_codigo_a5b1095101d30bb8f9647f43afa6b8f66}\index{Codigo@{Codigo}!Codigo@{Codigo}}
+\index{Codigo@{Codigo}!Codigo@{Codigo}}
+\doxysubsubsection{\texorpdfstring{Codigo()}{Codigo()}}
+{\footnotesize\ttfamily \label{class_codigo_a5b1095101d30bb8f9647f43afa6b8f66} 
+Codigo\+::\+Codigo (\begin{DoxyParamCaption}\item[{string}]{valor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da classe \doxylink{class_codigo}{Codigo} com valor inicial. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & Valor inicial do código. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_codigo_ac2e43f25fb33e877628cd0953f4e3686}\index{Codigo@{Codigo}!GerarCodigoAleatorio@{GerarCodigoAleatorio}}
+\index{GerarCodigoAleatorio@{GerarCodigoAleatorio}!Codigo@{Codigo}}
+\doxysubsubsection{\texorpdfstring{GerarCodigoAleatorio()}{GerarCodigoAleatorio()}}
+{\footnotesize\ttfamily \label{class_codigo_ac2e43f25fb33e877628cd0953f4e3686} 
+static string Codigo\+::\+Gerar\+Codigo\+Aleatorio (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método estático para gerar um código aleatório. 
+
+\begin{DoxyReturn}{Returns}
+string Código gerado aleatoriamente. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Codigo.\+hpp\end{DoxyCompactItemize}

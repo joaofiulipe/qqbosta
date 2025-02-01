@@ -1,0 +1,108 @@
+\doxysection{Ambiente\+Conta Class Reference}
+\hypertarget{class_ambiente_conta}{}\label{class_ambiente_conta}\index{AmbienteConta@{AmbienteConta}}
+
+
+Classe responsável pelo ambiente de conta do usuário.  
+
+
+
+
+{\ttfamily \#include $<$Conta.\+hpp$>$}
+
+Inheritance diagram for Ambiente\+Conta\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ambiente_conta}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ambiente_conta_ae1be4ce772da8be77e72d4a010ea1177}{Ambiente\+Conta}} (Codigo \&Codigo\+Usuario)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_ambiente_conta}{Ambiente\+Conta}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ambiente_conta_a136ec94508ec24a7de28e2db622629d9}{set\+Servico\+Conta}} (Interface\+Servico\+Conta \texorpdfstring{$\ast$}{*}Servico\+Conta)
+\begin{DoxyCompactList}\small\item\em Define o serviço de conta. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_conta_a8e6fa835606b55f7a1478a1855cf51ab}\label{class_ambiente_conta_a8e6fa835606b55f7a1478a1855cf51ab} 
+void {\bfseries Autenticar} ()
+\begin{DoxyCompactList}\small\item\em Método para autenticar o usuário. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_conta_a1cdfb650526631ccca6c821fa8127ab1}\label{class_ambiente_conta_a1cdfb650526631ccca6c821fa8127ab1} 
+void {\bfseries Criar} ()
+\begin{DoxyCompactList}\small\item\em Método para criar uma nova conta. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_conta_a0e7e4bb135e4c3098841fb302676dab6}\label{class_ambiente_conta_a0e7e4bb135e4c3098841fb302676dab6} 
+void {\bfseries Sair} ()
+\begin{DoxyCompactList}\small\item\em Método para sair do ambiente de conta. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ambiente_conta_a53f4a4be8ba61babc8d404fb2694aca8}{Executar}} (Codigo \&Codigo\+Usuario)
+\begin{DoxyCompactList}\small\item\em Método para executar operações no ambiente de conta. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ambiente_conta_ac8e26404ab64de8dedfd8b3569c3bf7a}{\texorpdfstring{$\sim$}{\string~}\+Ambiente\+Conta}} () override
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \doxylink{class_ambiente_conta}{Ambiente\+Conta}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pelo ambiente de conta do usuário. 
+
+Esta classe herda de Interface\+Apresentacao e gerencia as operações relacionadas à conta do usuário, como autenticação, criação e saída. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_ambiente_conta_ae1be4ce772da8be77e72d4a010ea1177}\index{AmbienteConta@{AmbienteConta}!AmbienteConta@{AmbienteConta}}
+\index{AmbienteConta@{AmbienteConta}!AmbienteConta@{AmbienteConta}}
+\doxysubsubsection{\texorpdfstring{AmbienteConta()}{AmbienteConta()}}
+{\footnotesize\ttfamily \label{class_ambiente_conta_ae1be4ce772da8be77e72d4a010ea1177} 
+Ambiente\+Conta\+::\+Ambiente\+Conta (\begin{DoxyParamCaption}\item[{Codigo \&}]{Codigo\+Usuario}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da classe \doxylink{class_ambiente_conta}{Ambiente\+Conta}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Codigo\+Usuario} & Código do usuário. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ambiente_conta_ac8e26404ab64de8dedfd8b3569c3bf7a}\index{AmbienteConta@{AmbienteConta}!````~AmbienteConta@{\texorpdfstring{$\sim$}{\string~}AmbienteConta}}
+\index{````~AmbienteConta@{\texorpdfstring{$\sim$}{\string~}AmbienteConta}!AmbienteConta@{AmbienteConta}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}AmbienteConta()}{\string~AmbienteConta()}}
+{\footnotesize\ttfamily \label{class_ambiente_conta_ac8e26404ab64de8dedfd8b3569c3bf7a} 
+Ambiente\+Conta\+::\texorpdfstring{$\sim$}{\string~}\+Ambiente\+Conta (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+
+
+Destrutor da classe \doxylink{class_ambiente_conta}{Ambiente\+Conta}. 
+
+Libera a memória alocada para o serviço de conta. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ambiente_conta_a53f4a4be8ba61babc8d404fb2694aca8}\index{AmbienteConta@{AmbienteConta}!Executar@{Executar}}
+\index{Executar@{Executar}!AmbienteConta@{AmbienteConta}}
+\doxysubsubsection{\texorpdfstring{Executar()}{Executar()}}
+{\footnotesize\ttfamily \label{class_ambiente_conta_a53f4a4be8ba61babc8d404fb2694aca8} 
+void Ambiente\+Conta\+::\+Executar (\begin{DoxyParamCaption}\item[{Codigo \&}]{Codigo\+Usuario}{}\end{DoxyParamCaption})}
+
+
+
+Método para executar operações no ambiente de conta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Codigo\+Usuario} & Código do usuário. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ambiente_conta_a136ec94508ec24a7de28e2db622629d9}\index{AmbienteConta@{AmbienteConta}!setServicoConta@{setServicoConta}}
+\index{setServicoConta@{setServicoConta}!AmbienteConta@{AmbienteConta}}
+\doxysubsubsection{\texorpdfstring{setServicoConta()}{setServicoConta()}}
+{\footnotesize\ttfamily \label{class_ambiente_conta_a136ec94508ec24a7de28e2db622629d9} 
+void Ambiente\+Conta\+::set\+Servico\+Conta (\begin{DoxyParamCaption}\item[{Interface\+Servico\+Conta \texorpdfstring{$\ast$}{*}}]{Servico\+Conta}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Define o serviço de conta. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Servico\+Conta} & Ponteiro para o serviço de conta. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Conta.\+hpp\end{DoxyCompactItemize}

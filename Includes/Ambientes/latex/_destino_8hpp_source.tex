@@ -1,0 +1,41 @@
+\doxysection{Destino.\+hpp}
+\hypertarget{_destino_8hpp_source}{}\label{_destino_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DESTINO\_AMBIENTE\_INTERFACE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DESTINO\_AMBIENTE\_INTERFACE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Apresentacao.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Servicos.hpp"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ambiente_destino}{AmbienteDestino}}\ :\ \textcolor{keyword}{public}\ InterfaceApresentacao}
+\DoxyCodeLine{00015\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ InterfaceServicoDestino\ *ServicoDestino;\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_ambiente_destino_ae313cf38eba236daf0ae7228db1be872}{AmbienteDestino}}(Codigo\ \&CodigoUsuario)\ :\ InterfaceApresentacao(CodigoUsuario)\ \{\};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_destino_ad3f005dd7a22855afecc88c014df3945}{setServicoDestino}}(InterfaceServicoDestino\ *ServicoDestino)}
+\DoxyCodeLine{00031\ \ \ \ \ \{}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ this-\/>ServicoDestino\ =\ ServicoDestino;}
+\DoxyCodeLine{00033\ \ \ \ \ \};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_destino_adbf944e4d9c0cbd21ad1f7a946b09415}{Executar}}(Codigo\ \&CodigoUsuario)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_destino_a988c290dd481dd85ffe739726f017dea}{Criar}}();}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_destino_aa30c6e527c2d6216b5eece36fc089610}{Atualizar}}();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_destino_ab9dd557f92309b06c9dd707c53a1b3ab}{Remover}}();}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_destino_a09ad171dddd2728f88552a9b4dc33824}{Ler}}();}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00066\ \ \ \ \ \mbox{\hyperlink{class_ambiente_destino_a27f512ab59f13681bf31f3bb2332758a}{\string~AmbienteDestino}}()\textcolor{keyword}{\ override}}
+\DoxyCodeLine{00067\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ ServicoDestino;}
+\DoxyCodeLine{00069\ \ \ \ \ \}}
+\DoxyCodeLine{00070\ \};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DESTINO\_AMBIENTE\_INTERFACE\_HPP}}
+
+\end{DoxyCode}

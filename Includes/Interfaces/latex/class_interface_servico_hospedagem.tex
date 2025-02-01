@@ -1,0 +1,36 @@
+\doxysection{Interface\+Servico\+Hospedagem Class Reference}
+\hypertarget{class_interface_servico_hospedagem}{}\label{class_interface_servico_hospedagem}\index{InterfaceServicoHospedagem@{InterfaceServicoHospedagem}}
+
+
+Interface para serviços relacionados a hospedagens.  
+
+
+
+
+{\ttfamily \#include $<$Servicos.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_interface_servico_hospedagem_a70e78f1ec03f7900eff07b8880d018a8}\label{class_interface_servico_hospedagem_a70e78f1ec03f7900eff07b8880d018a8} 
+virtual void {\bfseries Criar} (Codigo \&Codigo\+Usuario, Codigo \&Hospedagem\+Codigo\+Destino, Hospedagem \&Nova\+Hospedagem)=0
+\item 
+\Hypertarget{class_interface_servico_hospedagem_a9705b40b057dedaa6bf3c088f60b9221}\label{class_interface_servico_hospedagem_a9705b40b057dedaa6bf3c088f60b9221} 
+virtual vector$<$ Hospedagem $>$ {\bfseries Ler} (Codigo \&Codigo\+Usuario)=0
+\item 
+\Hypertarget{class_interface_servico_hospedagem_a15e1c65eba77ae1330a6cde3c7c6234e}\label{class_interface_servico_hospedagem_a15e1c65eba77ae1330a6cde3c7c6234e} 
+virtual void {\bfseries Atualizar} (Codigo \&Codigo\+Usuario, Codigo \&Hospedagem\+Codigo, Hospedagem \&Hospedagem\+Atualizada)=0
+\item 
+\Hypertarget{class_interface_servico_hospedagem_aa66418b145f0afa278821f316120810f}\label{class_interface_servico_hospedagem_aa66418b145f0afa278821f316120810f} 
+virtual void {\bfseries Remover} (Codigo \&Codigo\+Usuario, Codigo \&Hospedagem\+Codigo)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface para serviços relacionados a hospedagens. 
+
+Esta interface define métodos para criar, ler, atualizar e remover hospedagens. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Servicos.\+hpp\end{DoxyCompactItemize}

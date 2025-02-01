@@ -1,0 +1,38 @@
+\doxysection{Atividade.\+hpp}
+\hypertarget{_atividade_8hpp_source}{}\label{_atividade_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ATIVIDADE\_AMBIENTE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ATIVIDADE\_AMBIENTE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Apresentacao.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Servicos.hpp"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00071\ \ \textcolor{comment}{/*\ @brief\ Classe\ responsável\ por\ gerenciar\ a\ apresentação\ das\ atividades\ no\ ambiente.}}
+\DoxyCodeLine{00072\ \textcolor{comment}{\ *\ }}
+\DoxyCodeLine{00073\ \textcolor{comment}{\ *\ Esta\ classe\ herda\ de\ InterfaceApresentacao\ e\ é\ responsável\ por\ criar,\ atualizar,\ remover\ e\ ler\ atividades.}}
+\DoxyCodeLine{00074\ \textcolor{comment}{\ */}}
+\DoxyCodeLine{00075\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ambiente_atividade}{AmbienteAtividade}}\ :\ \textcolor{keyword}{public}\ InterfaceApresentacao}
+\DoxyCodeLine{00076\ \{}
+\DoxyCodeLine{00077\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00078\ \ \ InterfaceServicoAtividade\ *ServicoAtividade;\ }
+\DoxyCodeLine{00080\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00086\ \ \ \mbox{\hyperlink{class_ambiente_atividade_a540573e462fafe74c378ccd043325468}{AmbienteAtividade}}(Codigo\ \&CodigoUsuario);}
+\DoxyCodeLine{00087\ }
+\DoxyCodeLine{00093\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_atividade_a924f3fc9a21beffc6486c1e3f26bdb02}{setServicoAtividade}}(InterfaceServicoAtividade\ *ServicoAtividade);}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00100\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_atividade_ab9fb02ebbc23a6f212acbe30c23c7bf7}{Executar}}(Codigo\ \&CodigoUsuario);}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00105\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_atividade_a2e0a7a2bf48c93c23c186317443cbd1b}{Criar}}();}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00110\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_atividade_a60eb22ed467ad38248bdc9c2172cd490}{Atualizar}}();}
+\DoxyCodeLine{00111\ }
+\DoxyCodeLine{00115\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_atividade_a31cd676edd9017338e15bb0b760ebfc8}{Remover}}();}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00120\ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_atividade_a874be42da1f45fc9fac45b76a3d4ede6}{Ler}}();}
+\DoxyCodeLine{00121\ }
+\DoxyCodeLine{00127\ \ \ \mbox{\hyperlink{class_ambiente_atividade_abe65adad02c849f4c696f7be55c3ecc6}{\string~AmbienteAtividade}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00128\ \};}
+\DoxyCodeLine{00129\ }
+\DoxyCodeLine{00130\ \textcolor{preprocessor}{\#endif\ }}
+
+\end{DoxyCode}

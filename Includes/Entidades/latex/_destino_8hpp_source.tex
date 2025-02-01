@@ -1,0 +1,32 @@
+\doxysection{Destino.\+hpp}
+\hypertarget{_destino_8hpp_source}{}\label{_destino_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ DESTINO\_ENTITY\_INTERFACE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ DESTINO\_ENTITY\_INTERFACE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Codigo.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Nome.hpp"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Data.hpp"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Avaliacao.hpp"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}./Entidade.hpp"{}}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_destino}{Destino}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_entidade}{Entidade}}}
+\DoxyCodeLine{00017\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \ \ Codigo\ codigo;\ }
+\DoxyCodeLine{00020\ \ \ \ \ Nome\ nome;\ }
+\DoxyCodeLine{00021\ \ \ \ \ Data\ chegada;\ }
+\DoxyCodeLine{00022\ \ \ \ \ Avaliacao\ avaliacao;\ }
+\DoxyCodeLine{00023\ \ \ \ \ Data\ partida;\ }
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00034\ \ \ \ \ \mbox{\hyperlink{class_destino_a16474f57ab495450f9dc4a68163fd2c1}{Destino}}(\textcolor{keyword}{const}\ Codigo\ \&codigo,\ \textcolor{keyword}{const}\ Nome\ \&nome,\ \textcolor{keyword}{const}\ Data\ \&chegada,\ \textcolor{keyword}{const}\ Data\ \&partida,\ \textcolor{keyword}{const}\ Avaliacao\ \&avaliacao);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_destino_ae62ba6ec3190b56284fa13324f6fa601}{set}}(\textcolor{keyword}{const}\ Dominio\ \&dominio,\ \textcolor{keywordtype}{string}\ NomeProprio)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{const}\ Dominio\ \&\mbox{\hyperlink{class_destino_a07a19198011f4b05890467ef0cd67efa}{get}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ NomeProprio)\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00049\ \};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00051\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ DESTINO\_ENTITY\_INTERFACE\_H}}
+
+\end{DoxyCode}

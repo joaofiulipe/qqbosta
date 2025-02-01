@@ -1,0 +1,83 @@
+\doxysection{Entidade Class Reference}
+\hypertarget{class_entidade}{}\label{class_entidade}\index{Entidade@{Entidade}}
+
+
+Classe base abstrata para representação de entidades.  
+
+
+
+
+{\ttfamily \#include $<$Entidade.\+hpp$>$}
+
+Inheritance diagram for Entidade\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_entidade}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_entidade_a2b4ef42b2b950ad3554c253499038e77}\label{class_entidade_a2b4ef42b2b950ad3554c253499038e77} 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Entidade} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{class_entidade_a4df363a7b0293ecb4e610af6ab989396}{set}} (const Dominio \&dominio, string Nome\+Proprio)=0
+\begin{DoxyCompactList}\small\item\em Define o valor de um atributo da entidade. \end{DoxyCompactList}\item 
+virtual const Dominio \& \mbox{\hyperlink{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3}{get}} (const string Nome\+Proprio) const =0
+\begin{DoxyCompactList}\small\item\em Obtém o valor de um atributo da entidade. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe base abstrata para representação de entidades. 
+
+Esta classe fornece a interface para a definição e obtenção de valores de atributos de entidades. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3}\index{Entidade@{Entidade}!get@{get}}
+\index{get@{get}!Entidade@{Entidade}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3} 
+virtual const Dominio \& Entidade\+::get (\begin{DoxyParamCaption}\item[{const string}]{Nome\+Proprio}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Obtém o valor de um atributo da entidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Nome\+Proprio} & Nome do atributo a ser obtido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const Dominio\& Valor do atributo. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_atividade_a278ac08c50ce9e4b293644cd98ead891}{Atividade}}, \mbox{\hyperlink{class_conta_a4b85fcf60225f3e4ae89615e8ddad17a}{Conta}}, \mbox{\hyperlink{class_destino_a07a19198011f4b05890467ef0cd67efa}{Destino}}, \mbox{\hyperlink{class_hospedagem_a8144d83423c368fc1ee356fe4fb9851a}{Hospedagem}}, and \mbox{\hyperlink{class_viagem_ac35207507f6cd12440a577123bb768db}{Viagem}}.
+
+\Hypertarget{class_entidade_a4df363a7b0293ecb4e610af6ab989396}\index{Entidade@{Entidade}!set@{set}}
+\index{set@{set}!Entidade@{Entidade}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily \label{class_entidade_a4df363a7b0293ecb4e610af6ab989396} 
+virtual void Entidade\+::set (\begin{DoxyParamCaption}\item[{const Dominio \&}]{dominio}{, }\item[{string}]{Nome\+Proprio}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Define o valor de um atributo da entidade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dominio} & Objeto do tipo Dominio contendo o valor a ser definido. \\
+\hline
+{\em Nome\+Proprio} & Nome do atributo a ser definido. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_atividade_af395d189f089429c09b4e144b60a5886}{Atividade}}, \mbox{\hyperlink{class_conta_aa3618df7d73c61284db6133d8f2c9d30}{Conta}}, \mbox{\hyperlink{class_destino_ae62ba6ec3190b56284fa13324f6fa601}{Destino}}, \mbox{\hyperlink{class_hospedagem_a2c07bfe44524ff72ce9e0a88b797a7f8}{Hospedagem}}, and \mbox{\hyperlink{class_viagem_a31730817bde2693eaef9367fc8770bda}{Viagem}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Entidade.\+hpp\end{DoxyCompactItemize}

@@ -1,0 +1,36 @@
+\doxysection{Interface\+Servico\+Atividade Class Reference}
+\hypertarget{class_interface_servico_atividade}{}\label{class_interface_servico_atividade}\index{InterfaceServicoAtividade@{InterfaceServicoAtividade}}
+
+
+Interface para serviços relacionados a atividades.  
+
+
+
+
+{\ttfamily \#include $<$Servicos.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_interface_servico_atividade_a30f93876c06ed8c70dc05d8a6b84865e}\label{class_interface_servico_atividade_a30f93876c06ed8c70dc05d8a6b84865e} 
+virtual void {\bfseries Criar} (Codigo \&Codigo\+Usuario, Codigo \&Atividade\+Codigo\+Destino, Atividade \&Nova\+Atividade)=0
+\item 
+\Hypertarget{class_interface_servico_atividade_a8ef0702bdd1b57e2f648b6cfec8afe32}\label{class_interface_servico_atividade_a8ef0702bdd1b57e2f648b6cfec8afe32} 
+virtual vector$<$ Atividade $>$ {\bfseries Ler} (Codigo \&Codigo\+Usuario)=0
+\item 
+\Hypertarget{class_interface_servico_atividade_a2e8d896daa214926036cd3383b87a45b}\label{class_interface_servico_atividade_a2e8d896daa214926036cd3383b87a45b} 
+virtual void {\bfseries Atualizar} (Codigo \&Codigo\+Usuario, Codigo \&Atividade\+Codigo, Atividade \&Atividade\+Atualizada)=0
+\item 
+\Hypertarget{class_interface_servico_atividade_a36189485b46f94cfd98135d1964f33e7}\label{class_interface_servico_atividade_a36189485b46f94cfd98135d1964f33e7} 
+virtual void {\bfseries Remover} (Codigo \&Codigo\+Usuario, Codigo \&Atividade\+Codigo)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface para serviços relacionados a atividades. 
+
+Esta interface define métodos para criar, ler, atualizar e remover atividades. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Servicos.\+hpp\end{DoxyCompactItemize}

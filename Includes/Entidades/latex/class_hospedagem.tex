@@ -1,0 +1,111 @@
+\doxysection{Hospedagem Class Reference}
+\hypertarget{class_hospedagem}{}\label{class_hospedagem}\index{Hospedagem@{Hospedagem}}
+
+
+Classe responsável pela representação de uma hospedagem.  
+
+
+
+
+{\ttfamily \#include $<$Hospedagem.\+hpp$>$}
+
+Inheritance diagram for Hospedagem\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_hospedagem}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_hospedagem_ade6195e23f5f26198588e0b8c53e8bdc}{Hospedagem}} (const Codigo \&codigo, const Nome \&nome, const Dinheiro \&precodiaria, const Avaliacao \&avaliacao)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_hospedagem}{Hospedagem}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_hospedagem_a2c07bfe44524ff72ce9e0a88b797a7f8}{set}} (const Dominio \&dominio, string Nome\+Proprio) override
+\begin{DoxyCompactList}\small\item\em Define o valor de um atributo da hospedagem. \end{DoxyCompactList}\item 
+const Dominio \& \mbox{\hyperlink{class_hospedagem_a8144d83423c368fc1ee356fe4fb9851a}{get}} (const string Nome\+Proprio) const override
+\begin{DoxyCompactList}\small\item\em Obtém o valor de um atributo da hospedagem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_entidade}{Entidade}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Entidade} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela representação de uma hospedagem. 
+
+Esta classe herda de \doxylink{class_entidade}{Entidade} e gerencia os atributos e operações relacionados a uma hospedagem. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_hospedagem_ade6195e23f5f26198588e0b8c53e8bdc}\index{Hospedagem@{Hospedagem}!Hospedagem@{Hospedagem}}
+\index{Hospedagem@{Hospedagem}!Hospedagem@{Hospedagem}}
+\doxysubsubsection{\texorpdfstring{Hospedagem()}{Hospedagem()}}
+{\footnotesize\ttfamily \label{class_hospedagem_ade6195e23f5f26198588e0b8c53e8bdc} 
+Hospedagem\+::\+Hospedagem (\begin{DoxyParamCaption}\item[{const Codigo \&}]{codigo}{, }\item[{const Nome \&}]{nome}{, }\item[{const Dinheiro \&}]{precodiaria}{, }\item[{const Avaliacao \&}]{avaliacao}{}\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \doxylink{class_hospedagem}{Hospedagem}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & Código da hospedagem. \\
+\hline
+{\em nome} & Nome da hospedagem. \\
+\hline
+{\em precodiaria} & Preço da diária da hospedagem. \\
+\hline
+{\em avaliacao} & Avaliação da hospedagem. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_hospedagem_a8144d83423c368fc1ee356fe4fb9851a}\index{Hospedagem@{Hospedagem}!get@{get}}
+\index{get@{get}!Hospedagem@{Hospedagem}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{class_hospedagem_a8144d83423c368fc1ee356fe4fb9851a} 
+const Dominio \& Hospedagem\+::get (\begin{DoxyParamCaption}\item[{const string}]{Nome\+Proprio}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Obtém o valor de um atributo da hospedagem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Nome\+Proprio} & Nome do atributo a ser obtido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const Dominio\& Valor do atributo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3}{Entidade}}.
+
+\Hypertarget{class_hospedagem_a2c07bfe44524ff72ce9e0a88b797a7f8}\index{Hospedagem@{Hospedagem}!set@{set}}
+\index{set@{set}!Hospedagem@{Hospedagem}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily \label{class_hospedagem_a2c07bfe44524ff72ce9e0a88b797a7f8} 
+void Hospedagem\+::set (\begin{DoxyParamCaption}\item[{const Dominio \&}]{dominio}{, }\item[{string}]{Nome\+Proprio}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Define o valor de um atributo da hospedagem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dominio} & Objeto do tipo Dominio contendo o valor a ser definido. \\
+\hline
+{\em Nome\+Proprio} & Nome do atributo a ser definido. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entidade_a4df363a7b0293ecb4e610af6ab989396}{Entidade}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Hospedagem.\+hpp\end{DoxyCompactItemize}

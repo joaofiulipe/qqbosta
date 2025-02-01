@@ -1,0 +1,111 @@
+\doxysection{Ambiente\+Destino Class Reference}
+\hypertarget{class_ambiente_destino}{}\label{class_ambiente_destino}\index{AmbienteDestino@{AmbienteDestino}}
+
+
+Classe responsável pelo ambiente de destino do usuário.  
+
+
+
+
+{\ttfamily \#include $<$Destino.\+hpp$>$}
+
+Inheritance diagram for Ambiente\+Destino\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ambiente_destino}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ambiente_destino_ae313cf38eba236daf0ae7228db1be872}{Ambiente\+Destino}} (Codigo \&Codigo\+Usuario)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_ambiente_destino}{Ambiente\+Destino}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ambiente_destino_ad3f005dd7a22855afecc88c014df3945}{set\+Servico\+Destino}} (Interface\+Servico\+Destino \texorpdfstring{$\ast$}{*}Servico\+Destino)
+\begin{DoxyCompactList}\small\item\em Define o serviço de destino. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ambiente_destino_adbf944e4d9c0cbd21ad1f7a946b09415}{Executar}} (Codigo \&Codigo\+Usuario) override
+\begin{DoxyCompactList}\small\item\em Método para executar operações no ambiente de destino. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_destino_a988c290dd481dd85ffe739726f017dea}\label{class_ambiente_destino_a988c290dd481dd85ffe739726f017dea} 
+void {\bfseries Criar} ()
+\begin{DoxyCompactList}\small\item\em Método para criar um novo destino. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_destino_aa30c6e527c2d6216b5eece36fc089610}\label{class_ambiente_destino_aa30c6e527c2d6216b5eece36fc089610} 
+void {\bfseries Atualizar} ()
+\begin{DoxyCompactList}\small\item\em Método para atualizar um destino existente. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_destino_ab9dd557f92309b06c9dd707c53a1b3ab}\label{class_ambiente_destino_ab9dd557f92309b06c9dd707c53a1b3ab} 
+void {\bfseries Remover} ()
+\begin{DoxyCompactList}\small\item\em Método para remover um destino. \end{DoxyCompactList}\item 
+\Hypertarget{class_ambiente_destino_a09ad171dddd2728f88552a9b4dc33824}\label{class_ambiente_destino_a09ad171dddd2728f88552a9b4dc33824} 
+void {\bfseries Ler} ()
+\begin{DoxyCompactList}\small\item\em Método para ler informações de um destino. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_ambiente_destino_a27f512ab59f13681bf31f3bb2332758a}{\texorpdfstring{$\sim$}{\string~}\+Ambiente\+Destino}} () override
+\begin{DoxyCompactList}\small\item\em Destrutor da classe \doxylink{class_ambiente_destino}{Ambiente\+Destino}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pelo ambiente de destino do usuário. 
+
+Esta classe herda de Interface\+Apresentacao e gerencia as operações relacionadas ao destino do usuário, como criação, atualização, remoção e leitura de destinos. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_ambiente_destino_ae313cf38eba236daf0ae7228db1be872}\index{AmbienteDestino@{AmbienteDestino}!AmbienteDestino@{AmbienteDestino}}
+\index{AmbienteDestino@{AmbienteDestino}!AmbienteDestino@{AmbienteDestino}}
+\doxysubsubsection{\texorpdfstring{AmbienteDestino()}{AmbienteDestino()}}
+{\footnotesize\ttfamily \label{class_ambiente_destino_ae313cf38eba236daf0ae7228db1be872} 
+Ambiente\+Destino\+::\+Ambiente\+Destino (\begin{DoxyParamCaption}\item[{Codigo \&}]{Codigo\+Usuario}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da classe \doxylink{class_ambiente_destino}{Ambiente\+Destino}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Codigo\+Usuario} & Código do usuário. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ambiente_destino_a27f512ab59f13681bf31f3bb2332758a}\index{AmbienteDestino@{AmbienteDestino}!````~AmbienteDestino@{\texorpdfstring{$\sim$}{\string~}AmbienteDestino}}
+\index{````~AmbienteDestino@{\texorpdfstring{$\sim$}{\string~}AmbienteDestino}!AmbienteDestino@{AmbienteDestino}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}AmbienteDestino()}{\string~AmbienteDestino()}}
+{\footnotesize\ttfamily \label{class_ambiente_destino_a27f512ab59f13681bf31f3bb2332758a} 
+Ambiente\+Destino\+::\texorpdfstring{$\sim$}{\string~}\+Ambiente\+Destino (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}}
+
+
+
+Destrutor da classe \doxylink{class_ambiente_destino}{Ambiente\+Destino}. 
+
+Libera a memória alocada para o serviço de destino. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_ambiente_destino_adbf944e4d9c0cbd21ad1f7a946b09415}\index{AmbienteDestino@{AmbienteDestino}!Executar@{Executar}}
+\index{Executar@{Executar}!AmbienteDestino@{AmbienteDestino}}
+\doxysubsubsection{\texorpdfstring{Executar()}{Executar()}}
+{\footnotesize\ttfamily \label{class_ambiente_destino_adbf944e4d9c0cbd21ad1f7a946b09415} 
+void Ambiente\+Destino\+::\+Executar (\begin{DoxyParamCaption}\item[{Codigo \&}]{Codigo\+Usuario}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}}
+
+
+
+Método para executar operações no ambiente de destino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Codigo\+Usuario} & Código do usuário. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_ambiente_destino_ad3f005dd7a22855afecc88c014df3945}\index{AmbienteDestino@{AmbienteDestino}!setServicoDestino@{setServicoDestino}}
+\index{setServicoDestino@{setServicoDestino}!AmbienteDestino@{AmbienteDestino}}
+\doxysubsubsection{\texorpdfstring{setServicoDestino()}{setServicoDestino()}}
+{\footnotesize\ttfamily \label{class_ambiente_destino_ad3f005dd7a22855afecc88c014df3945} 
+void Ambiente\+Destino\+::set\+Servico\+Destino (\begin{DoxyParamCaption}\item[{Interface\+Servico\+Destino \texorpdfstring{$\ast$}{*}}]{Servico\+Destino}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Define o serviço de destino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Servico\+Destino} & Ponteiro para o serviço de destino. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Destino.\+hpp\end{DoxyCompactItemize}

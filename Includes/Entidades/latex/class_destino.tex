@@ -1,0 +1,113 @@
+\doxysection{Destino Class Reference}
+\hypertarget{class_destino}{}\label{class_destino}\index{Destino@{Destino}}
+
+
+Classe responsável pela representação de um destino.  
+
+
+
+
+{\ttfamily \#include $<$Destino.\+hpp$>$}
+
+Inheritance diagram for Destino\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_destino}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_destino_a16474f57ab495450f9dc4a68163fd2c1}{Destino}} (const Codigo \&codigo, const Nome \&nome, const Data \&chegada, const Data \&partida, const Avaliacao \&avaliacao)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_destino}{Destino}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_destino_ae62ba6ec3190b56284fa13324f6fa601}{set}} (const Dominio \&dominio, string Nome\+Proprio) override
+\begin{DoxyCompactList}\small\item\em Define o valor de um atributo do destino. \end{DoxyCompactList}\item 
+const Dominio \& \mbox{\hyperlink{class_destino_a07a19198011f4b05890467ef0cd67efa}{get}} (const string Nome\+Proprio) const override
+\begin{DoxyCompactList}\small\item\em Obtém o valor de um atributo do destino. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_entidade}{Entidade}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Entidade} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela representação de um destino. 
+
+Esta classe herda de \doxylink{class_entidade}{Entidade} e gerencia os atributos e operações relacionados a um destino. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_destino_a16474f57ab495450f9dc4a68163fd2c1}\index{Destino@{Destino}!Destino@{Destino}}
+\index{Destino@{Destino}!Destino@{Destino}}
+\doxysubsubsection{\texorpdfstring{Destino()}{Destino()}}
+{\footnotesize\ttfamily \label{class_destino_a16474f57ab495450f9dc4a68163fd2c1} 
+Destino\+::\+Destino (\begin{DoxyParamCaption}\item[{const Codigo \&}]{codigo}{, }\item[{const Nome \&}]{nome}{, }\item[{const Data \&}]{chegada}{, }\item[{const Data \&}]{partida}{, }\item[{const Avaliacao \&}]{avaliacao}{}\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \doxylink{class_destino}{Destino}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & Código do destino. \\
+\hline
+{\em nome} & Nome do destino. \\
+\hline
+{\em chegada} & Data de chegada ao destino. \\
+\hline
+{\em partida} & Data de partida do destino. \\
+\hline
+{\em avaliacao} & Avaliação do destino. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_destino_a07a19198011f4b05890467ef0cd67efa}\index{Destino@{Destino}!get@{get}}
+\index{get@{get}!Destino@{Destino}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{class_destino_a07a19198011f4b05890467ef0cd67efa} 
+const Dominio \& Destino\+::get (\begin{DoxyParamCaption}\item[{const string}]{Nome\+Proprio}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Obtém o valor de um atributo do destino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Nome\+Proprio} & Nome do atributo a ser obtido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const Dominio\& Valor do atributo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3}{Entidade}}.
+
+\Hypertarget{class_destino_ae62ba6ec3190b56284fa13324f6fa601}\index{Destino@{Destino}!set@{set}}
+\index{set@{set}!Destino@{Destino}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily \label{class_destino_ae62ba6ec3190b56284fa13324f6fa601} 
+void Destino\+::set (\begin{DoxyParamCaption}\item[{const Dominio \&}]{dominio}{, }\item[{string}]{Nome\+Proprio}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Define o valor de um atributo do destino. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dominio} & Objeto do tipo Dominio contendo o valor a ser definido. \\
+\hline
+{\em Nome\+Proprio} & Nome do atributo a ser definido. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entidade_a4df363a7b0293ecb4e610af6ab989396}{Entidade}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Destino.\+hpp\end{DoxyCompactItemize}

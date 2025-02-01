@@ -1,0 +1,111 @@
+\doxysection{Data Class Reference}
+\hypertarget{class_data}{}\label{class_data}\index{Data@{Data}}
+
+
+Classe responsável pela representação de uma data.  
+
+
+
+
+{\ttfamily \#include $<$Data.\+hpp$>$}
+
+Inheritance diagram for Data\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_data}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_data_a4f58cb86557495e0004eb90f77be265b}{Data}} (string valor)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_data}{Data} com valor inicial. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_dominio}{Dominio}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Dominio} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_dominio_a3f7814697db9114231eec4824466a4de}{set\+Valor}} (const string \&valor)
+\begin{DoxyCompactList}\small\item\em Define o valor do domínio. \end{DoxyCompactList}\item 
+const string \& \mbox{\hyperlink{class_dominio_a277d40b5389efc363ef9fbf1e690ad0b}{get\+Valor}} () const
+\begin{DoxyCompactList}\small\item\em Obtém o valor do domínio. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \mbox{\hyperlink{class_data_afd1c8fd415693f5f8d4600f759e40d11}{Calcular\+Alcance\+Datas}} (string Data\+Inicial, string Data\+Final)
+\begin{DoxyCompactList}\small\item\em Método estático para calcular o alcance entre duas datas. \end{DoxyCompactList}\item 
+static bool \mbox{\hyperlink{class_data_a0cda598fd3d486c439daad042327f88b}{Alcance\+Datas}} (string date, string Data\+Inicial, string Data\+Final)
+\begin{DoxyCompactList}\small\item\em Método estático para verificar se uma data está dentro de um intervalo. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela representação de uma data. 
+
+Esta classe herda de \doxylink{class_dominio}{Dominio} e gerencia a validação e manipulação de datas. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_data_a4f58cb86557495e0004eb90f77be265b}\index{Data@{Data}!Data@{Data}}
+\index{Data@{Data}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{Data()}{Data()}}
+{\footnotesize\ttfamily \label{class_data_a4f58cb86557495e0004eb90f77be265b} 
+Data\+::\+Data (\begin{DoxyParamCaption}\item[{string}]{valor}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Construtor da classe \doxylink{class_data}{Data} com valor inicial. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em valor} & Valor inicial da data. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_data_a0cda598fd3d486c439daad042327f88b}\index{Data@{Data}!AlcanceDatas@{AlcanceDatas}}
+\index{AlcanceDatas@{AlcanceDatas}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{AlcanceDatas()}{AlcanceDatas()}}
+{\footnotesize\ttfamily \label{class_data_a0cda598fd3d486c439daad042327f88b} 
+static bool Data\+::\+Alcance\+Datas (\begin{DoxyParamCaption}\item[{string}]{date}{, }\item[{string}]{Data\+Inicial}{, }\item[{string}]{Data\+Final}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método estático para verificar se uma data está dentro de um intervalo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em date} & \doxylink{class_data}{Data} a ser verificada. \\
+\hline
+{\em Data\+Inicial} & \doxylink{class_data}{Data} inicial do intervalo. \\
+\hline
+{\em Data\+Final} & \doxylink{class_data}{Data} final do intervalo. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool Verdadeiro se a data estiver dentro do intervalo, falso caso contrário. 
+\end{DoxyReturn}
+\Hypertarget{class_data_afd1c8fd415693f5f8d4600f759e40d11}\index{Data@{Data}!CalcularAlcanceDatas@{CalcularAlcanceDatas}}
+\index{CalcularAlcanceDatas@{CalcularAlcanceDatas}!Data@{Data}}
+\doxysubsubsection{\texorpdfstring{CalcularAlcanceDatas()}{CalcularAlcanceDatas()}}
+{\footnotesize\ttfamily \label{class_data_afd1c8fd415693f5f8d4600f759e40d11} 
+static int Data\+::\+Calcular\+Alcance\+Datas (\begin{DoxyParamCaption}\item[{string}]{Data\+Inicial}{, }\item[{string}]{Data\+Final}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Método estático para calcular o alcance entre duas datas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Data\+Inicial} & \doxylink{class_data}{Data} inicial. \\
+\hline
+{\em Data\+Final} & \doxylink{class_data}{Data} final. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Número de dias entre as duas datas. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Data.\+hpp\end{DoxyCompactItemize}

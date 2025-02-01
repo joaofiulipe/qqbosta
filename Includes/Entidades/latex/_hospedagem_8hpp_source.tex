@@ -1,0 +1,31 @@
+\doxysection{Hospedagem.\+hpp}
+\hypertarget{_hospedagem_8hpp_source}{}\label{_hospedagem_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ HOSPEDAGEM\_ENTITY\_INTERFACE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ HOSPEDAGEM\_ENTITY\_INTERFACE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Codigo.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Nome.hpp"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Dinheiro.hpp"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Avaliacao.hpp"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}./Entidade.hpp"{}}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_hospedagem}{Hospedagem}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_entidade}{Entidade}}}
+\DoxyCodeLine{00017\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \ \ Codigo\ codigo;\ }
+\DoxyCodeLine{00020\ \ \ \ \ Nome\ nome;\ }
+\DoxyCodeLine{00021\ \ \ \ \ Dinheiro\ precodiaria;\ }
+\DoxyCodeLine{00022\ \ \ \ \ Avaliacao\ avaliacao;\ }
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00032\ \ \ \ \ \mbox{\hyperlink{class_hospedagem_ade6195e23f5f26198588e0b8c53e8bdc}{Hospedagem}}(\textcolor{keyword}{const}\ Codigo\ \&codigo,\ \textcolor{keyword}{const}\ Nome\ \&nome,\ \textcolor{keyword}{const}\ Dinheiro\ \&precodiaria,\ \textcolor{keyword}{const}\ Avaliacao\ \&avaliacao);}
+\DoxyCodeLine{00033\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_hospedagem_a2c07bfe44524ff72ce9e0a88b797a7f8}{set}}(\textcolor{keyword}{const}\ Dominio\ \&dominio,\ \textcolor{keywordtype}{string}\ NomeProprio)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keyword}{const}\ Dominio\ \&\mbox{\hyperlink{class_hospedagem_a8144d83423c368fc1ee356fe4fb9851a}{get}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ NomeProprio)\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00047\ \};}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HOSPEDAGEM\_ENTITY\_INTERFACE\_H}}
+
+\end{DoxyCode}

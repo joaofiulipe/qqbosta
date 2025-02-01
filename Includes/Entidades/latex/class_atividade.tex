@@ -1,0 +1,117 @@
+\doxysection{Atividade Class Reference}
+\hypertarget{class_atividade}{}\label{class_atividade}\index{Atividade@{Atividade}}
+
+
+Classe responsável pela representação de uma atividade.  
+
+
+
+
+{\ttfamily \#include $<$Atividades.\+hpp$>$}
+
+Inheritance diagram for Atividade\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_atividade}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_atividade_a719e8fe455e0bbd4a03fe2a91008d75e}{Atividade}} (const Codigo \&codigo, const Nome \&nome, const Data \&data, const Horario \&horario, const Duracao \&duracao, const Dinheiro \&preco, const Avaliacao \&avaliacao)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_atividade}{Atividade}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_atividade_af395d189f089429c09b4e144b60a5886}{set}} (const Dominio \&dominio, string Nome\+Proprio) override
+\begin{DoxyCompactList}\small\item\em Define o valor de um atributo da atividade. \end{DoxyCompactList}\item 
+const Dominio \& \mbox{\hyperlink{class_atividade_a278ac08c50ce9e4b293644cd98ead891}{get}} (const string Nome\+Proprio) const override
+\begin{DoxyCompactList}\small\item\em Obtém o valor de um atributo da atividade. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_entidade}{Entidade}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Entidade} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela representação de uma atividade. 
+
+Esta classe herda de \doxylink{class_entidade}{Entidade} e gerencia os atributos e operações relacionados a uma atividade. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_atividade_a719e8fe455e0bbd4a03fe2a91008d75e}\index{Atividade@{Atividade}!Atividade@{Atividade}}
+\index{Atividade@{Atividade}!Atividade@{Atividade}}
+\doxysubsubsection{\texorpdfstring{Atividade()}{Atividade()}}
+{\footnotesize\ttfamily \label{class_atividade_a719e8fe455e0bbd4a03fe2a91008d75e} 
+Atividade\+::\+Atividade (\begin{DoxyParamCaption}\item[{const Codigo \&}]{codigo}{, }\item[{const Nome \&}]{nome}{, }\item[{const Data \&}]{data}{, }\item[{const Horario \&}]{horario}{, }\item[{const Duracao \&}]{duracao}{, }\item[{const Dinheiro \&}]{preco}{, }\item[{const Avaliacao \&}]{avaliacao}{}\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \doxylink{class_atividade}{Atividade}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & Código da atividade. \\
+\hline
+{\em nome} & Nome da atividade. \\
+\hline
+{\em data} & Data da atividade. \\
+\hline
+{\em horario} & Horário da atividade. \\
+\hline
+{\em duracao} & Duração da atividade. \\
+\hline
+{\em preco} & Preço da atividade. \\
+\hline
+{\em avaliacao} & Avaliação da atividade. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_atividade_a278ac08c50ce9e4b293644cd98ead891}\index{Atividade@{Atividade}!get@{get}}
+\index{get@{get}!Atividade@{Atividade}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{class_atividade_a278ac08c50ce9e4b293644cd98ead891} 
+const Dominio \& Atividade\+::get (\begin{DoxyParamCaption}\item[{const string}]{Nome\+Proprio}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Obtém o valor de um atributo da atividade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Nome\+Proprio} & Nome do atributo a ser obtido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const Dominio\& Valor do atributo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3}{Entidade}}.
+
+\Hypertarget{class_atividade_af395d189f089429c09b4e144b60a5886}\index{Atividade@{Atividade}!set@{set}}
+\index{set@{set}!Atividade@{Atividade}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily \label{class_atividade_af395d189f089429c09b4e144b60a5886} 
+void Atividade\+::set (\begin{DoxyParamCaption}\item[{const Dominio \&}]{dominio}{, }\item[{string}]{Nome\+Proprio}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Define o valor de um atributo da atividade. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dominio} & Objeto do tipo Dominio contendo o valor a ser definido. \\
+\hline
+{\em Nome\+Proprio} & Nome do atributo a ser definido. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entidade_a4df363a7b0293ecb4e610af6ab989396}{Entidade}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Atividades.\+hpp\end{DoxyCompactItemize}

@@ -1,0 +1,37 @@
+\doxysection{Atividades.\+hpp}
+\hypertarget{_atividades_8hpp_source}{}\label{_atividades_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ATIVIDADE\_ENTITY\_INTERFACE\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ATIVIDADE\_ENTITY\_INTERFACE\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Codigo.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Nome.hpp"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Data.hpp"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Duracao.hpp"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Dinheiro.hpp"{}}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Avaliacao.hpp"{}}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}../Dominios/Horario.hpp"{}}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}./Entidade.hpp"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_atividade}{Atividade}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_entidade}{Entidade}}}
+\DoxyCodeLine{00020\ \{}
+\DoxyCodeLine{00021\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00022\ \ \ \ \ Codigo\ codigo;\ }
+\DoxyCodeLine{00023\ \ \ \ \ Nome\ nome;\ }
+\DoxyCodeLine{00024\ \ \ \ \ Data\ data;\ }
+\DoxyCodeLine{00025\ \ \ \ \ Horario\ horario;\ }
+\DoxyCodeLine{00026\ \ \ \ \ Duracao\ duracao;\ }
+\DoxyCodeLine{00027\ \ \ \ \ Dinheiro\ preco;\ }
+\DoxyCodeLine{00028\ \ \ \ \ Avaliacao\ avaliacao;\ }
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00041\ \ \ \ \ \mbox{\hyperlink{class_atividade_a719e8fe455e0bbd4a03fe2a91008d75e}{Atividade}}(\textcolor{keyword}{const}\ Codigo\ \&codigo,\ \textcolor{keyword}{const}\ Nome\ \&nome,\ \textcolor{keyword}{const}\ Data\ \&data,\ \textcolor{keyword}{const}\ Horario\ \&horario,\ \textcolor{keyword}{const}\ Duracao\ \&duracao,\ \textcolor{keyword}{const}\ Dinheiro\ \&preco,\ \textcolor{keyword}{const}\ Avaliacao\ \&avaliacao);}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_atividade_af395d189f089429c09b4e144b60a5886}{set}}(\textcolor{keyword}{const}\ Dominio\ \&dominio,\ \textcolor{keywordtype}{string}\ NomeProprio)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keyword}{const}\ Dominio\ \&\mbox{\hyperlink{class_atividade_a278ac08c50ce9e4b293644cd98ead891}{get}}(\textcolor{keyword}{const}\ \textcolor{keywordtype}{string}\ NomeProprio)\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00056\ \};}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ ATIVIDADE\_ENTITY\_INTERFACE\_H}}
+
+\end{DoxyCode}

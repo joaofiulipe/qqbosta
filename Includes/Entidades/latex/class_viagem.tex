@@ -1,0 +1,109 @@
+\doxysection{Viagem Class Reference}
+\hypertarget{class_viagem}{}\label{class_viagem}\index{Viagem@{Viagem}}
+
+
+Classe responsável pela representação de uma viagem.  
+
+
+
+
+{\ttfamily \#include $<$Viagem.\+hpp$>$}
+
+Inheritance diagram for Viagem\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_viagem}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_viagem_a70cd0262bae61043d37e87cc3a4d937f}{Viagem}} (const Codigo \&codigo, const Nome \&nome, const Avaliacao \&avaliacao)
+\begin{DoxyCompactList}\small\item\em Construtor da classe \doxylink{class_viagem}{Viagem}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_viagem_a31730817bde2693eaef9367fc8770bda}{set}} (const Dominio \&dominio, string Nome\+Proprio) override
+\begin{DoxyCompactList}\small\item\em Define o valor de um atributo da viagem. \end{DoxyCompactList}\item 
+const Dominio \& \mbox{\hyperlink{class_viagem_ac35207507f6cd12440a577123bb768db}{get}} (const string Nome\+Proprio) const override
+\begin{DoxyCompactList}\small\item\em Obtém o valor de um atributo da viagem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{class_entidade}{Entidade}}}
+\begin{DoxyCompactItemize}
+\item 
+virtual {\bfseries \texorpdfstring{$\sim$}{\string~}\+Entidade} ()=default
+\begin{DoxyCompactList}\small\item\em Destrutor virtual padrão. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe responsável pela representação de uma viagem. 
+
+Esta classe herda de \doxylink{class_entidade}{Entidade} e gerencia os atributos e operações relacionados a uma viagem. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_viagem_a70cd0262bae61043d37e87cc3a4d937f}\index{Viagem@{Viagem}!Viagem@{Viagem}}
+\index{Viagem@{Viagem}!Viagem@{Viagem}}
+\doxysubsubsection{\texorpdfstring{Viagem()}{Viagem()}}
+{\footnotesize\ttfamily \label{class_viagem_a70cd0262bae61043d37e87cc3a4d937f} 
+Viagem\+::\+Viagem (\begin{DoxyParamCaption}\item[{const Codigo \&}]{codigo}{, }\item[{const Nome \&}]{nome}{, }\item[{const Avaliacao \&}]{avaliacao}{}\end{DoxyParamCaption})}
+
+
+
+Construtor da classe \doxylink{class_viagem}{Viagem}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em codigo} & Código da viagem. \\
+\hline
+{\em nome} & Nome da viagem. \\
+\hline
+{\em avaliacao} & Avaliação da viagem. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_viagem_ac35207507f6cd12440a577123bb768db}\index{Viagem@{Viagem}!get@{get}}
+\index{get@{get}!Viagem@{Viagem}}
+\doxysubsubsection{\texorpdfstring{get()}{get()}}
+{\footnotesize\ttfamily \label{class_viagem_ac35207507f6cd12440a577123bb768db} 
+const Dominio \& Viagem\+::get (\begin{DoxyParamCaption}\item[{const string}]{Nome\+Proprio}{}\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Obtém o valor de um atributo da viagem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Nome\+Proprio} & Nome do atributo a ser obtido. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+const Dominio\& Valor do atributo. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_entidade_a9a28cadeb4bce14251bae5f21e27b7c3}{Entidade}}.
+
+\Hypertarget{class_viagem_a31730817bde2693eaef9367fc8770bda}\index{Viagem@{Viagem}!set@{set}}
+\index{set@{set}!Viagem@{Viagem}}
+\doxysubsubsection{\texorpdfstring{set()}{set()}}
+{\footnotesize\ttfamily \label{class_viagem_a31730817bde2693eaef9367fc8770bda} 
+void Viagem\+::set (\begin{DoxyParamCaption}\item[{const Dominio \&}]{dominio}{, }\item[{string}]{Nome\+Proprio}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Define o valor de um atributo da viagem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dominio} & Objeto do tipo Dominio contendo o valor a ser definido. \\
+\hline
+{\em Nome\+Proprio} & Nome do atributo a ser definido. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entidade_a4df363a7b0293ecb4e610af6ab989396}{Entidade}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Viagem.\+hpp\end{DoxyCompactItemize}

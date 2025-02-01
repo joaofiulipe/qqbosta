@@ -1,0 +1,41 @@
+\doxysection{Hospedagem.\+hpp}
+\hypertarget{_hospedagem_8hpp_source}{}\label{_hospedagem_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ HOSPEDAGEM\_AMBIENTE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ HOSPEDAGEM\_AMBIENTE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Apresentacao.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Servicos.hpp"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ambiente_hospedagem}{AmbienteHospedagem}}\ :\ \textcolor{keyword}{public}\ InterfaceApresentacao}
+\DoxyCodeLine{00015\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ InterfaceServicoHospedagem\ *ServicoHospedagem;\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_ambiente_hospedagem_a25661f55b322db15b566a097c3f7e720}{AmbienteHospedagem}}(Codigo\ \&CodigoUsuario)\ :\ InterfaceApresentacao(CodigoUsuario)\ \{\};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_hospedagem_aade333446ce4fcee07f186714f4425b7}{setServicoHospedagem}}(InterfaceServicoHospedagem\ *ServicoHospedagem)}
+\DoxyCodeLine{00031\ \ \ \ \ \{}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ this-\/>ServicoHospedagem\ =\ ServicoHospedagem;}
+\DoxyCodeLine{00033\ \ \ \ \ \};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_hospedagem_a3cf07fa49f4653c07c7bab38a515f2e2}{Executar}}(Codigo\ \&CodigoUsuario)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_hospedagem_a53cfe1cf04c77a3328978b53ec99668f}{Criar}}();}
+\DoxyCodeLine{00045\ }
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_hospedagem_ab938870bdbf71cce8afaac02d21d532a}{Atualizar}}();}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_hospedagem_ae27772658a1f09dbf499fd49b10a8c22}{Remover}}();}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_hospedagem_a78e112c9e0e4fc55698627fc9ac217ba}{Ler}}();}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00066\ \ \ \ \ \mbox{\hyperlink{class_ambiente_hospedagem_a56d4b6c753dc7ec173b81ae33f912e88}{\string~AmbienteHospedagem}}()\textcolor{keyword}{\ override}}
+\DoxyCodeLine{00067\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00068\ \ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ ServicoHospedagem;}
+\DoxyCodeLine{00069\ \ \ \ \ \}}
+\DoxyCodeLine{00070\ \};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00072\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ HOSPEDAGEM\_AMBIENTE\_HPP}}
+
+\end{DoxyCode}

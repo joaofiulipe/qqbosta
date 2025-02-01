@@ -1,0 +1,40 @@
+\doxysection{Conta.\+hpp}
+\hypertarget{_conta_8hpp_source}{}\label{_conta_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ CONTA\_AMBIENTE\_INTERFACE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ CONTA\_AMBIENTE\_INTERFACE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Apresentacao.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Servicos.hpp"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ambiente_conta}{AmbienteConta}}\ :\ \textcolor{keyword}{public}\ InterfaceApresentacao}
+\DoxyCodeLine{00015\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ InterfaceServicoConta\ *ServicoConta;\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{class_ambiente_conta_ae1be4ce772da8be77e72d4a010ea1177}{AmbienteConta}}(Codigo\ \&CodigoUsuario)\ :\ InterfaceApresentacao(CodigoUsuario)\ \{\};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_conta_a136ec94508ec24a7de28e2db622629d9}{setServicoConta}}(InterfaceServicoConta\ *ServicoConta)}
+\DoxyCodeLine{00031\ \ \ \ \ \{}
+\DoxyCodeLine{00032\ \ \ \ \ \ \ \ \ this-\/>ServicoConta\ =\ ServicoConta;}
+\DoxyCodeLine{00033\ \ \ \ \ \};}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_conta_a8e6fa835606b55f7a1478a1855cf51ab}{Autenticar}}();}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_conta_a1cdfb650526631ccca6c821fa8127ab1}{Criar}}();}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_conta_a0e7e4bb135e4c3098841fb302676dab6}{Sair}}();}
+\DoxyCodeLine{00049\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_conta_a53f4a4be8ba61babc8d404fb2694aca8}{Executar}}(Codigo\ \&CodigoUsuario);}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00061\ \ \ \ \ \mbox{\hyperlink{class_ambiente_conta_ac8e26404ab64de8dedfd8b3569c3bf7a}{\string~AmbienteConta}}()\textcolor{keyword}{\ override}}
+\DoxyCodeLine{00062\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00063\ \ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ ServicoConta;}
+\DoxyCodeLine{00064\ \ \ \ \ \}}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00066\ \};}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00068\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ CONTA\_AMBIENTE\_INTERFACE\_HPP}}
+
+\end{DoxyCode}

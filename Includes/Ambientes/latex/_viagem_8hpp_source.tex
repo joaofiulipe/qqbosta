@@ -1,0 +1,53 @@
+\doxysection{Viagem.\+hpp}
+\hypertarget{_viagem_8hpp_source}{}\label{_viagem_8hpp_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ VIAGEM\_AMBIENTE\_INTERFACE\_HPP}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ VIAGEM\_AMBIENTE\_INTERFACE\_HPP}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Apresentacao.hpp"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}../Interfaces/Servicos.hpp"{}}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_ambiente_viagem}{AmbienteViagem}}\ :\ \textcolor{keyword}{public}\ InterfaceApresentacao}
+\DoxyCodeLine{00015\ \{}
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ InterfaceServicoViagem\ *ServicoViagem;\ }
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ ConsultaCusto(Codigo\ CodigoViagem);}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{void}\ ListaDestinos(Codigo\ CodigoViagem);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ ConsultaDestino();}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ ListaHospedagens(Codigo\ CodigoDestino);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{void}\ ListaAtividades(Codigo\ CodigoDestino);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00053\ \ \ \ \ \mbox{\hyperlink{class_ambiente_viagem_a8d52ae07ee445bba958b2f05d541485b}{AmbienteViagem}}(Codigo\ \&CodigoUsuario)\ :\ InterfaceApresentacao(CodigoUsuario)\ \{\};}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_af2e83f399a382fc458e0d6e27b3aa609}{setServicoViagem}}(InterfaceServicoViagem\ *ServicoViagem)}
+\DoxyCodeLine{00060\ \ \ \ \ \{}
+\DoxyCodeLine{00061\ \ \ \ \ \ \ \ \ this-\/>ServicoViagem\ =\ ServicoViagem;}
+\DoxyCodeLine{00062\ \ \ \ \ \};}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_a6b887789bc9c869dabcc47feeb3a1fc5}{Executar}}(Codigo\ \&CodigoUsuario)\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00069\ }
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_a3ed3b4c82a0b764879a5049afe9cc305}{Criar}}();}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00078\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_a98e96c22f418df5980dbe74e2801651d}{Atualizar}}();}
+\DoxyCodeLine{00079\ }
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_a04491192f9c35059b0c58febb06dadc0}{Remover}}();}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_a6fdbfd768446031aa5de0f55fdcc1dec}{ListarTudo}}();}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00093\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_ambiente_viagem_ab597b27445b7daedee3d697b6d7e372e}{ConsultaViagem}}();}
+\DoxyCodeLine{00094\ }
+\DoxyCodeLine{00100\ \ \ \ \ \mbox{\hyperlink{class_ambiente_viagem_a37366a2218a80130dde8404388de792c}{\string~AmbienteViagem}}()\textcolor{keyword}{\ override}}
+\DoxyCodeLine{00101\ \textcolor{keyword}{\ \ \ \ }\{}
+\DoxyCodeLine{00102\ \ \ \ \ \ \ \ \ \textcolor{keyword}{delete}\ ServicoViagem;}
+\DoxyCodeLine{00103\ \ \ \ \ \}}
+\DoxyCodeLine{00104\ \};}
+\DoxyCodeLine{00105\ }
+\DoxyCodeLine{00106\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ VIAGEM\_AMBIENTE\_INTERFACE\_HPP}}
+
+\end{DoxyCode}

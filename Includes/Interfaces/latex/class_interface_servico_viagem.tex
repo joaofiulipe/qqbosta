@@ -1,0 +1,51 @@
+\doxysection{Interface\+Servico\+Viagem Class Reference}
+\hypertarget{class_interface_servico_viagem}{}\label{class_interface_servico_viagem}\index{InterfaceServicoViagem@{InterfaceServicoViagem}}
+
+
+Interface para serviços relacionados a viagens.  
+
+
+
+
+{\ttfamily \#include $<$Servicos.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_interface_servico_viagem_aea08240a5938d981b93e70ef451d51cb}\label{class_interface_servico_viagem_aea08240a5938d981b93e70ef451d51cb} 
+virtual void {\bfseries Criar} (Codigo \&Codigo\+Usuario, Viagem \&Nova\+Viagem)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_a93984599a334751f703c9222ae3526db}\label{class_interface_servico_viagem_a93984599a334751f703c9222ae3526db} 
+virtual void {\bfseries Atualizar} (Codigo \&Codigo\+Usuario, Codigo \&Codigo\+Viagem, Viagem \&Viagem\+Atualizada)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_a1a310e97bf7cb8cfac82cab8784c865b}\label{class_interface_servico_viagem_a1a310e97bf7cb8cfac82cab8784c865b} 
+virtual void {\bfseries Remover} (Codigo \&Codigo\+Usuario, Codigo \&Viagem\+Codigo)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_ac9c20ddc5dc2d643c79cac4e0c5a6399}\label{class_interface_servico_viagem_ac9c20ddc5dc2d643c79cac4e0c5a6399} 
+virtual vector$<$ Viagem $>$ {\bfseries Ler\+Tudo} (Codigo \&Codigo\+Usuario)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_a5a8b8025afc5d837f1bf3dfbc9ca9d13}\label{class_interface_servico_viagem_a5a8b8025afc5d837f1bf3dfbc9ca9d13} 
+virtual int {\bfseries Consulta\+Custo} (Codigo \&Codigo\+Usuario, Codigo \&Viagem\+Codigo)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_a358f6ed00a001a9bdf55177ce11afdc7}\label{class_interface_servico_viagem_a358f6ed00a001a9bdf55177ce11afdc7} 
+virtual vector$<$ Destino $>$ {\bfseries Lista\+Destinos} (Codigo \&Codigo\+Usuario, Codigo \&Viagem\+Codigo)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_a00fa6059a659e9505c93237d3a26a493}\label{class_interface_servico_viagem_a00fa6059a659e9505c93237d3a26a493} 
+virtual Destino {\bfseries Consulta\+Destino} (Codigo \&Codigo\+Usuario, Codigo \&Codigo\+Destino)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_aa018c7b3d32fbf33bf6656c7542f0d7b}\label{class_interface_servico_viagem_aa018c7b3d32fbf33bf6656c7542f0d7b} 
+virtual vector$<$ Hospedagem $>$ {\bfseries Lista\+Hospedagems} (Codigo \&Codigo\+Usuario, Codigo \&Codigo\+Destino)=0
+\item 
+\Hypertarget{class_interface_servico_viagem_a7af905069b34994ad27b56106383cffe}\label{class_interface_servico_viagem_a7af905069b34994ad27b56106383cffe} 
+virtual vector$<$ Atividade $>$ {\bfseries Lista\+Atividades} (Codigo \&Codigo\+Usuario, Codigo \&Codigo\+Destino)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Interface para serviços relacionados a viagens. 
+
+Esta interface define métodos para criar, atualizar, remover, ler e consultar informações sobre viagens. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Servicos.\+hpp\end{DoxyCompactItemize}
