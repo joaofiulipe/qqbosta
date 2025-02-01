@@ -83,14 +83,18 @@ public:
    * 
    * @param CodigoUsuario Código do usuário.
    */
-  AmbienteAtividade(Codigo &CodigoUsuario);
+  AmbienteAtividade(Codigo &CodigoUsuario) : InterfaceApresentacao(CodigoUsuario) {};
 
   /**
    * @brief Define o serviço de atividades.
    * 
    * @param ServicoAtividade Ponteiro para o serviço de atividades.
    */
-  void setServicoAtividade(InterfaceServicoAtividade *ServicoAtividade);
+  void setServicoAtividade(InterfaceServicoAtividade *ServicoAtividade)
+  {
+    this->ServicoAtividade = ServicoAtividade;
+  };
+
 
   /**
    * @brief Executa a apresentação das atividades.
@@ -124,7 +128,10 @@ public:
    * 
    * Libera a memória alocada para o serviço de atividades.
    */
-  ~AmbienteAtividade() override;
+  ~AmbienteAtividade() override
+    {
+    delete ServicoAtividade;
+  }
 };
 
 #endif 
